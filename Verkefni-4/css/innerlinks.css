@@ -1,0 +1,138 @@
+* {box-sizing: border-box}
+body {
+    background-color: #0064ce;
+    background: linear-gradient(to top, #f7d37e, #f6f1d3);
+    color: #444444;
+    font: 400 1em/1.5 "Open Sans", "sans serif"; /* Samsett skipun, þyngd/hæð, size, family */
+}
+.container {
+    max-width: 60em; /* fartölvustærð */
+    margin: 0 auto; /* top/bottom og left/rigth*/
+    padding: 0;
+    text-align: center;
+}
+.container2 {
+    margin: 0 auto; /* top/bottom og left/rigth*/
+    padding: 0;
+    text-align: center;
+    
+}
+.container2 a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 4em;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.beige {
+    background-image: linear-gradient(to bottom, #f7d37e, #f6f1d3);
+    padding: 1em;
+      
+}
+.beige h1 {
+    color: #8f435c;
+    font-weight: 100;
+    font-size: 1.9em;
+    margin: 1em 0 1em 0;
+}
+.top {
+    background: linear-gradient(to bottom, #8f435c 87%, #001933);
+}
+header {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 20vh;
+}
+
+header h1 {
+    color: white;
+    font-weight: 200;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 1em 0 1em 0;
+}
+.topnav {
+    
+    margin-top: 5em;
+    margin-right: 5em;
+}
+.midnav {
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 9em;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 1em;
+    margin-top: 5em;
+}
+.verkefni {
+    text-align: right;
+    color: #f7d37e;
+}
+.copy {
+    color: #fff;
+    text-align: center;
+}
+blockquote {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+}
+footer {
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #0064ce;
+}
+footer {
+    list-style-type: none;
+    padding-bottom: 0.2;
+}
+dt {
+    color: #f7d37e;
+}
+
+.box-set,
+.box {
+  border-radius: 10px;
+}
+.box-set {
+    display:inline;
+    margin: 4em;
+}
+.box {
+    display:inline-block;
+    background: #8f435c;
+    padding: 10px 0;
+    text-align: center;
+    width: 10%;
+}
+.box a {
+    color: #f7d37e;
+    text-decoration: none;
+
+}
+.buttonTop{
+    position: fixed;
+    background: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+}
